@@ -1,0 +1,10 @@
+<odoo>
+    <template id="custom_saleorder_document_inherit" inherit_id="sale.report_saleorder_document">
+        <!-- Override the layout_document_title span -->
+        <xpath expr="//t[@t-set='layout_document_title']/span[last()]" position="replace">
+            <span t-if="is_proforma">Pro-Forma Invoice # </span>
+            <span t-elif="doc.state in ['draft','sent']">Quotation # </span>
+            <span t-else="">Local Purchase Order # </span>
+        </xpath>
+    </template>
+</odoo>
