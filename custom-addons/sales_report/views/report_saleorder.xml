@@ -7,9 +7,8 @@
                 <span t-else="">Local Purchase Order # </span>
                 <span t-field="doc.name" />
             </t>
-        </xpath>
-
-        <xpath expr="//div[@id='payment_term']" position="after">
+            </xpath>
+        <xpath expr="//div[@class='clearfix']" position="after">
             <div class="text-center my-3">
                 <strong t-translation="on">Thank you for your business!</strong>
             </div>
