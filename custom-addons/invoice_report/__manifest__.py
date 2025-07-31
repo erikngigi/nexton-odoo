@@ -1,7 +1,7 @@
 {
     'name': 'Custom Invoice Report',
     'version': '1.0',
-    'depends': ['invoice'],
+    'depends': ['account'],
     'data': [
         'views/report_invoice.xml',
     ],
