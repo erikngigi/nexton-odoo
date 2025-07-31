@@ -9,7 +9,7 @@
             </t>
         </xpath>
 
-        <xpath expr="//div[@class='oe_structure']" position="after">
+        <xpath expr="//div[@id='payment_term']" position="after">
             <div class="text-center my-3">
                 <strong t-translation="on">Thank you for your business!</strong>
             </div>
