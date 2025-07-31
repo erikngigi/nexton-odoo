@@ -10,9 +10,9 @@
             </xpath>
         <xpath expr="//div[@class='clearfix']" position="after">
             <div class="text-center my-3">
-                <strong t-translation="on">Note:</strong>
-                <strong t-translation="on">This is a system generated document and therefore no signature required.</strong>
-                <strong t-translation="on">It is a valid document issued by Nexton Limited.</strong>
+                <div><strong t-translation="on">Note:</strong></div>
+                <div><strong t-translation="on">This is a system generated document and therefore no signature required.</strong></div>
+                <div><strong t-translation="on">It is a valid document issued by Nexton Limited.</strong></div>
             </div>
         </xpath>
     </template>
