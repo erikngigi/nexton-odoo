@@ -3,14 +3,8 @@
         <xpath expr="//div[@class='clearfix mt-3']" position="after">
             <div class="text-left" style="padding-top: 20px;">
                 <div>
-                    <strong t-translation="on">Note:</strong>
-                </div>
-                <div>
-                    <strong t-translation="on">This is a system generated document and therefore no
-                        signature required.</strong>
-                </div>
-                <div>
-                    <strong t-translation="on">It is a valid document issued by Nexton Limited.</strong>
+                    <strong t-translation="on">** This document is system generated and is valid
+                        without a signature. **</strong>
                 </div>
             </div>
         </xpath>
