@@ -9,7 +9,7 @@
             </t>
         </xpath>
         <xpath expr="//div[@class='clearfix']" position="after">
-            <div class="text-left" style="padding-top: 100px;">
+            <div class="text-center" style="padding-top: 20px;">
                 <div>
                     <strong t-translation="on">** This document is system generated and is valid
                         without a signature. **</strong>
