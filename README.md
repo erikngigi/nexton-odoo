@@ -14,7 +14,7 @@ This guide walks you through installing **Odoo 18** on **Ubuntu 24.04** with Pos
 
 ---
 
-## 📑 Table of Contents
+## Table of Contents
 
 1. [Prerequisites](#prerequisites)
 2. [Step 1. Update the System](#step-1-update-the-system)
@@ -253,7 +253,7 @@ Active: active (running)
 
 ---
 
-## 📌 Customizations
+## Customizations
 
 This repository provides everything needed to **deploy and customize an Odoo ERP application** in a production environment.
 
@@ -267,7 +267,7 @@ This setup helps ensure your Odoo environment is **secure, performant, and exten
 
 ---
 
-## 🛠️ Directory Structure
+## Directory Structure
 
 ```
 infrastructure/
@@ -285,7 +285,7 @@ addons/
 
 ---
 
-## 🌐 Nginx Configuration for Odoo
+## Nginx Configuration for Odoo
 
 The `infrastructure/nginx/` directory contains the **reverse proxy configuration** for Odoo.
 This configuration is designed to:
@@ -328,7 +328,7 @@ server {
 
 ---
 
-## ⚙️ Odoo Addons
+## Odoo Addons
 
 The `addons/` directory contains modules that extend Odoo’s capabilities:
 
@@ -351,7 +351,7 @@ The `addons/` directory contains modules that extend Odoo’s capabilities:
 
 ---
 
-## 📦 Installing Custom & Open-Source Addons
+## Installing Custom & Open-Source Addons
 
 1. Place addons in the appropriate directory:
 
@@ -374,7 +374,7 @@ sudo systemctl restart odoo18
 
 ---
 
-## 🚀 Deployment Tips
+## Deployment Tips
 
 - Test Nginx configuration:
 
